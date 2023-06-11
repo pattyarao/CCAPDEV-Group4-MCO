@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+
+        <style>
+
+            *{
+                margin: 0;
+                padding: 0;
+                scroll-behavior: smooth;
+            }
+
+            .navbar{
+                background-color: gray;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                position: sticky;
+                top: 0;
+                height: auto;
+
+                padding: 10px;    
+            }
+
+            .app-logo img{
+                display: block;
+                border-radius: 10px;
+            }
+
+            .search{
+                width: 30%;
+            }
+
+            #search-bar{
+                padding: 10px;
+                width: 100%;
+                border-radius: 10px;
+                border: none;
+            }
+            
+            .user-tools{
+                display: flex;
+                align-items: center;
+                gap: 5px;
+            }
+
+            .container{
+                background-color: white;
+                display: flex;
+                align-items: center;
+                padding: 10px;
+                gap: 5px;
+
+                border-radius: 5px;
+            }
+
+            .notifications{
+                padding: 10px;
+            }
+
+            #notif-icon{
+                height: 20px;
+                display: block;
+            }
+
+            #user-icon{
+                height: 20px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div class="navbar">
+
+            <div class="app-logo">
+                <img src="images/placeholder-pic.png"> <!--LOGO PIC-->
+            </div>
+
+            <div class="search">
+                <input type="text" placeholder="Search..." id="search-bar">
+            </div>
+
+            <div class="user-tools">
+                <div class="notifications">
+                    <img src="images/placeholder-pic.png" id="notif-icon"> <!--ICON-->
+                </div>
+    
+                <div class="profile-tab">
+                    <div class="container">
+                        <img src="images/placeholder-pic.png" id="user-icon"> <!--ICON-->
+                        <p>@patricia_arao</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <!--
+        <div class="filter-bar">
+            <div class="filter-header">
+                <h3>Tags and Filters</h3>
+            </div>
+            <div class="sort-dropdown">
+                <p>Sort by</p>
+            </div>
+        </div>
+        -->
+        
+        
+        <script src="" async defer></script>
+    </body>
+</html>
